@@ -9,13 +9,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./css/styles.css" />
   <link rel="stylesheet" href="./css/responsive.css" />
+  <link rel="stylesheet" href="./css/login.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container header-container">
       <a class="brand" href="#" aria-label="invoiceTrack inicio">
         <span class="material-symbols-outlined brand-icon">account_balance</span>
-        <span class="brand-name">invoice<span>Track</span></span>
+        <span class="brand-name brand-gradient">CentralDeFacturas</span>
       </a>
 
       <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
@@ -30,12 +31,7 @@
       </nav>
 
       <div class="header-actions">
-        <button class="language-btn" type="button">ES <span class="material-symbols-outlined">expand_more</span></button>
-        <button class="theme-toggle" type="button" aria-label="Cambiar tema">
-          <span class="theme-toggle-dot"></span>
-          <span class="material-symbols-outlined">dark_mode</span>
-        </button>
-        <a class="btn btn-secondary btn-sm" href="#">Acceso Clientes</a>
+        <a class="btn btn-secondary btn-sm" href="https://app.centraldefacturas.com/login">Acceso Clientes</a>
       </div>
     </div>
   </header>
@@ -44,36 +40,49 @@
     <section class="hero section" id="inicio">
       <div class="container hero-grid">
         <div class="hero-content reveal">
-          <div class="eyebrow"><span class="material-symbols-outlined">verified</span> Software de Facturación Certificado</div>
-          <h1>Simplifica tu <span>facturación</span> empresarial</h1>
+          <div class="eyebrow"><span class="material-symbols-outlined">verified</span> Plataforma de Facturación</div>
+          <h1 class="hero-title">
+            Simplifica tu <em>facturación</em> empresarial
+          </h1>
           <p>El experto silencioso que gestiona tus finanzas mientras tú haces crecer tu negocio. Automatización inteligente, reportes en tiempo real y cumplimiento fiscal garantizado.</p>
           <div class="hero-actions">
             <a class="btn btn-primary btn-lg" href="#planes">Empezar prueba gratuita</a>
             <a class="btn btn-outline btn-lg" href="#productos"><span class="material-symbols-outlined">play_circle</span> Ver demo</a>
           </div>
-          <div class="trust-row">
-            <div class="avatars" aria-hidden="true">
-              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLkbhLlL_60ZWEZqjRicV1bKGsS6hHolBhmvx5EVuYY1OfyaiaCVBig6zMYTv4XZCUksnDqBQoWVy2aUaouTtcMI7FzSd9HXwxt06IiTICgTqcOePe2_Byo0rMOVdXEcEo7uJndwmkPtlVb8Onjy_WDC05wx9GamVjwhs3OqajjMb6PLJ7vYow2N1hDj5Z793DxVduatrLitXc_vI5svd3baDMxNdFtKXVFN1TUQyJs8y8bV811m9AbgAhCAmEZG3I8lu76cKebVYo" alt="" />
-              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB40d6uLJcyxZr72jj9z_zeB3r2KHmYEzWuSCni05zqBkSg73hyX8X5kTg8UjvjiKktr0DfmS9QcDD91Fa6cTK5ixFO60SInmCR2dTi6Ts_1HCGn9hEd8qofx21_EqVtbWex92R_E0A-WD0u-1mPMe9vULApSVKmrhD88UTUsmKvPcZ6TGUhgO_j_muRbioq4k-JHWwcPSpR1WGwDVqWSOA0rCdZxUItZZ0K5WeceYnnunJsUanMDingEYusYq9yRgXRsD4pm4Xd1eq" alt="" />
-              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFLvmcR_AaM9U1GMD4GLxT5aA_mULjOwUjRQ5SFc_9kaw7qIIEHUzqtn-BrmeyQIkPj7OdzOuc1PnGvaAt1oqaatftd-FaAk6DMmNbXBuqgSzn1ug6PRC5QgNKB2gN1HSrj-b2gCQHOOnaGIPBfJrObvq4JgAT3xZw0VzlQ2PB2Oerdnv4Da3pFrUXsb9S_EIvuoTTt5FqkSNhTCgw46TNXPm09Jq7mBW5j6nDvActd1lNno2piwrm41ye3pWqoqxK8jalpDe3r-Ml" alt="" />
-            </div>
-            <p><strong>+5,000</strong> empresas confían en nosotros</p>
-          </div>
         </div>
 
         <div class="hero-visual reveal" style="transition-delay: 160ms;">
-          <div class="hero-glow"></div>
+          <!-- <div class="hero-glow"></div> -->
           <div class="orbital-container">
-            <img class="hero-illustration" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCItkiENs5TovggRgOHilEF6WQOt0LnPp835tAthNQ3o18X1x8xE1FvffeA8Tl7tEV_x8gTUTOsvocXefsLy8nC5UoMxMzeevrtW41c2fj_nlbLY8DKCaUFSCQpnpNt3XPGsRIeV0piMYtfSd9BkHqMeTHv3hYSv8k2LffbzGjsZZVCZl9iLB8Yx-3SDIXIUOPVw47a7VSPVckEsW-zGbh6iNSOnWy_5XdYuhtIikPRPuMZ39tzHAeCisXnbKQvS2FWexE2pZ0WrJgd" alt="Ilustración SaaS" />
-            <div class="orbit-layer orbit-layer-outer">
-              <div class="icon-node node-top"><span class="material-symbols-outlined">receipt_long</span></div>
-              <div class="icon-node node-bottom"><span class="material-symbols-outlined">credit_card</span></div>
-              <div class="icon-node node-left"><span class="material-symbols-outlined">notifications</span></div>
-              <div class="icon-node node-right"><span class="material-symbols-outlined">bar_chart</span></div>
+            <img class="hero-illustration" src="./assets/notebook-hero.png" alt="Ilustración SaaS" />       
+            <span class="orbit-dot dot-outer-1"></span>
+            <span class="orbit-dot dot-outer-2"></span>
+            <span class="orbit-dot dot-middle-1"></span>        
+            <!-- Iconos estáticos -->
+            <div class="icon-node icon-accent node-static-3"><span class="material-symbols-outlined">receipt_long</span></div>
+            <div class="icon-node icon-primary node-static-2"><span class="material-symbols-outlined">notifications_active</span></div>
+            <div class="icon-node icon-soft node-static-1"><span class="material-symbols-outlined">monitoring</span></div>
+            <div class="icon-node icon-soft node-static-4"><span class="material-symbols-outlined">add_card</span></div>   
+            <div class="icon-node icon-soft node-static-5">
+              <span class="material-symbols-outlined">mark_as_unread</span>
+            </div>            
+
+            <div class="icon-node icon-soft node-static-6">
+              <span class="material-symbols-outlined">account_balance</span>
+            </div>    
+            <!-- Iconos girando órbita exterior -->
+            <div class="orbit-runner orbit-runner-outer runner-speed-1">
+              <div class="icon-node icon-soft"><span class="material-symbols-outlined">qr_code_scanner</span></div>
             </div>
-            <div class="orbit-layer orbit-layer-inner">
-              <div class="icon-node node-inner-top"><span class="material-symbols-outlined">search_check</span></div>
-              <div class="icon-node node-inner-bottom"><span class="material-symbols-outlined">shield</span></div>
+            <div class="orbit-runner orbit-runner-outer runner-speed-2">
+              <div class="icon-node icon-soft"><span class="material-symbols-outlined">Paid</span></div>
+            </div>
+            <!-- Iconos girando órbita interna -->
+            <div class="orbit-runner orbit-runner-inner runner-speed-3">
+              <div class="icon-node icon-line"><span class="material-symbols-outlined">manage_search</span></div>
+            </div>
+            <div class="orbit-runner orbit-runner-inner runner-speed-4">
+              <div class="icon-node icon-line"><span class="material-symbols-outlined">shield</span></div>
             </div>
           </div>
         </div>
@@ -142,23 +151,23 @@
           <article class="pricing-card reveal">
             <h3>Gratis</h3><div class="price">€0<span>/siempre</span></div><p>Para autónomos que están empezando.</p>
             <ul><li>Hasta 5 facturas/mes</li><li>1 usuario básico</li><li>Soporte vía email</li></ul>
-            <a class="btn btn-outline" href="#">Elegir plan</a>
+            <a class="btn btn-primary" href="https://app.centraldefacturas.com/login">Empezar gratis</a>
           </article>
           <article class="pricing-card featured reveal" style="transition-delay:100ms;">
             <div class="popular-badge">Más popular</div>
             <h3>Pago 1 - Emprendedor</h3><div class="price">€15<span>/mes</span></div><p>Para pequeños negocios en crecimiento.</p>
             <ul><li>Facturación ilimitada</li><li>3 usuarios colaboradores</li><li>Reportes trimestrales</li><li>Escaneo de tickets (IA)</li></ul>
-            <a class="btn btn-primary" href="#">Empezar gratis</a>
+            <a class="btn btn-outline" href="https://app.centraldefacturas.com/login">Elegir plan</a>
           </article>
           <article class="pricing-card reveal" style="transition-delay:160ms;">
             <h3>Pago 2 - Business</h3><div class="price">€45<span>/mes</span></div><p>Soluciones avanzadas para PYMES.</p>
             <ul><li>Todo lo de Emprendedor</li><li>Usuarios ilimitados</li><li>Integración bancaria total</li><li>Soporte prioritario 24/7</li></ul>
-            <a class="btn btn-outline" href="#">Elegir plan</a>
+            <a class="btn btn-outline" href="https://app.centraldefacturas.com/login">Elegir plan</a>
           </article>
           <article class="pricing-card reveal" style="transition-delay:220ms;">
             <h3>Pago 3 - Enterprise</h3><div class="price">€99<span>/mes</span></div><p>Control total y personalización máxima.</p>
             <ul><li>Todo lo de Business</li><li>API personalizada</li><li>Account Manager dedicado</li><li>Formación in-situ</li></ul>
-            <a class="btn btn-outline" href="#">Contactar ventas</a>
+            <a class="btn btn-outline" href="https://app.centraldefacturas.com/login">Contactar ventas</a>
           </article>
         </div>
       </div>
@@ -169,7 +178,7 @@
         <div class="cta-card reveal">
           <h2>¿Listo para transformar tu gestión empresarial?</h2>
           <p>Únete a miles de profesionales que ya han simplificado su vida con invoiceTrack. Empieza hoy tu prueba de 14 días sin compromiso.</p>
-          <div class="cta-actions"><a class="btn btn-accent btn-lg" href="#">Comenzar ahora gratis</a><span>No requiere tarjeta de crédito</span></div>
+          <div class="cta-actions"><a class="btn btn-accent btn-lg" href="https://app.centraldefacturas.com/login">Comenzar ahora gratis</a><span>No requiere tarjeta de crédito</span></div>
         </div>
       </div>
     </section>

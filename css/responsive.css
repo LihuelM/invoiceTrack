@@ -7,6 +7,22 @@
   .module-card-integrations { grid-column: auto; }
   .pricing-grid { grid-template-columns: repeat(2, 1fr); }
   .pricing-card.featured { transform: none; }
+  .module-showcase-grid {
+    grid-template-columns: 1.25fr 0.9fr;
+    grid-template-areas:
+      "invoice expenses"
+      "security integrations";
+    gap: var(--space-5);
+  }
+
+  .module-card-wide {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .module-image {
+    height: 100%;
+    min-height: 240px;
+  }
 }
 
 @media (max-width: 860px) {
@@ -56,4 +72,30 @@
   .module-image { min-height: 180px; }
   .pricing-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
+   .module-showcase-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "invoice"
+      "expenses"
+      "security"
+      "integrations";
+    gap: var(--space-5);
+  }
+
+  .module-card-wide {
+    grid-template-columns: 1fr;
+  }
+
+  .module-card-wide .module-image {
+    display: none;
+  }
+
+  .module-card-integrations {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .module-bank-icons {
+    margin-top: var(--space-4);
+  }
 }
